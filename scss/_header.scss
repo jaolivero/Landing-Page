@@ -5,15 +5,15 @@
   // Hamburger Open Styles
   &.open {
     .header__toggle {
-      span:first-child {
+      > span:first-child {
         transform: rotate(45deg);
       }
 
-      span:nth-child(2) {
+      > span:nth-child(2) {
         opacity: 0;
       }
 
-      span:last-child {
+      > span:last-child {
         transform: rotate(-45deg);
       }
     }

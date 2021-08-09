@@ -217,16 +217,16 @@ button:hover::before,
   z-index: 1;
 }
 
-.header.open .header__toggle span:first-child {
+.header.open .header__toggle > span:first-child {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
-.header.open .header__toggle span:nth-child(2) {
+.header.open .header__toggle > span:nth-child(2) {
   opacity: 0;
 }
 
-.header.open .header__toggle span:last-child {
+.header.open .header__toggle > span:last-child {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
